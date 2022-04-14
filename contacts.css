@@ -21,6 +21,7 @@ nav{
     background-color: lightblue;
     color: rgb(255, 0, 0);
     line-height: 10vh;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 nav ul{
@@ -29,3 +30,22 @@ nav ul{
     list-style: none;
     width: 70vw;
 }
+form {
+    display: grid;
+    width: 200px;
+    height: 100px;
+    grid-template-columns: 200%;
+    align-items: center;
+    grid-gap: 1.5em;
+    padding: 10px;
+    }
+
+
+    input[type=text]
+    {
+        display: inline-block;
+        padding: 10px;
+    }
+ .submit {
+    grid-column: 2;
+    }
