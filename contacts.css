@@ -1,4 +1,3 @@
-*
 {
     padding: 0;
     margin: 0;
@@ -32,14 +31,25 @@ nav ul{
 }
 form {
     display: grid;
-    width: 200px;
-    height: 100px;
+    width: 230px;
+    /* height: 200px; */
     grid-template-columns: 200%;
+     grid-template-rows: 20% 20% 20% 20%;
     align-items: center;
     grid-gap: 1.5em;
-    padding: 10px;
-    }
-
+    /* padding: 20px;*/
+    position: relative;
+}
+.SOCIALS{
+    position: relative;
+    top: 150px;
+    left: 15px;
+}
+.footer-bottom{
+    position: relative;
+    top: 150px;
+    left: 15px;
+}
 
     input[type=text]
     {
